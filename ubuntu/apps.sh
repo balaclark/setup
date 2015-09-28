@@ -13,7 +13,9 @@ sudo apt-get install -y \
   gitg \
   vim-nox \
   zsh \
-  tmux
+  tmux \
+  htop \
+  glances
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
