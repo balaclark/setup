@@ -17,7 +17,8 @@ sudo apt-get install -y \
   tmux \
   htop \
   glances \
-  silversearcher-ag
+  silversearcher-ag \
+  ppa-purge
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
