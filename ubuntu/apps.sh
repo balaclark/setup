@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get remove -y unity-lens-shopping
+sudo apt-get remove -y unity-lens-shopping unity-webapps-common
 sudo apt-get install -y \
   unity-tweak-tool \
   ubuntu-restricted-extras \
