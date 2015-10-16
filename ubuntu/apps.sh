@@ -34,3 +34,7 @@ sudo apt-get install -y scudcloud
 #sudo cp ~/scudcloud.png /opt/scudcloud/resources/
 #sudo chmod +r /opt/scudcloud/resources/scudcloud.png
 
+# lollypop (music)
+sudo add-apt-repository ppa:gnumdk/lollypop
+sudo apt-get update
+sudo apt-get install -y lollypop
