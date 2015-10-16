@@ -19,7 +19,8 @@ sudo apt-get install -y \
   glances \
   silversearcher-ag \
   ppa-purge \
-  redshift-gtk
+  redshift-gtk \
+  gparted
 
 sudo /usr/share/doc/libdvdread4/install-css.sh
 
