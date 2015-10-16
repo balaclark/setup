@@ -39,3 +39,8 @@ sudo apt-get install -y scudcloud
 sudo add-apt-repository ppa:gnumdk/lollypop
 sudo apt-get update
 sudo apt-get install -y lollypop
+
+# albert (alfred)
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install albert
