@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 if [ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]; then
-	git clone --recursive git@github.com:sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+  git clone --recursive git@github.com:sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 fi
 
 setopt EXTENDED_GLOB

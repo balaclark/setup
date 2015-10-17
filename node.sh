@@ -5,5 +5,18 @@ sudo sh -c 'curl -fsSL https://raw.github.com/isaacs/nave/master/nave.sh > /usr/
 
 sudo nave usemain stable
 
-npm install -g jscs jshint eslint mocha gulp
+# install packages without sudo
+wget -O- https://raw.githubusercontent.com/glenpike/npm-g_nosudo/master/npm-g-nosudo.sh | sh
 
+
+npm install -g \
+	mocha \
+	pliers \
+	st \
+	json \
+	bunyan \
+	jscs \
+	jshint \
+	npmrc \
+	html \
+	eslint \
