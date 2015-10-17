@@ -65,6 +65,7 @@ brew cask install flux
 brew cask install caffeine
 brew cask install virtualbox
 brew cask install robomongo
+brew cask install spectacle
 
 # Nodejs
 if [ -x "$(which node)" ]; then
