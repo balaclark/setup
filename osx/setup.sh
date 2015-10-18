@@ -45,7 +45,7 @@ brew install zsh
 $DIR/../zsh.sh
 
 # Install a bunch of useful tools
-brew install wget mtr iftop pv tmux htop-osx hub git tig
+brew install wget mtr iftop pv tmux htop-osx hub vim git tig reattach-to-user-namespace
 
 # memcached is required for development on some projects
 brew install memcached
@@ -66,6 +66,9 @@ brew cask install caffeine
 brew cask install virtualbox
 brew cask install robomongo
 brew cask install spectacle
+brew cask install transmission
+brew cask install the-unarchiver
+brew cask install cyberduck
 
 # Nodejs
 if [ -x "$(which node)" ]; then
