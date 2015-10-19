@@ -75,6 +75,9 @@ brew cask install spectacle
 brew cask install transmission
 brew cask install the-unarchiver
 brew cask install cyberduck
+brew cask install dropbox
+brew cask install alfred
+brew cask install libreoffice
 
 # Nodejs
 if [ -x "$(which node)" ]; then
