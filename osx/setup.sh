@@ -37,6 +37,8 @@ else
 fi
 
 # Install ZeroMQ
+# Override system vim
+brew install vim --ov
 brew install pkg-config
 brew install zeromq
 
@@ -45,7 +47,11 @@ brew install zsh
 $DIR/../zsh.sh
 
 # Install a bunch of useful tools
-brew install wget mtr iftop pv tmux htop-osx hub vim git tig reattach-to-user-namespace
+brew install wget mtr iftop pv tmux htop-osx hub git tig reattach-to-user-namespace
+
+# Override system vim
+brew install vim --override-system-vi
+hash -r
 
 # memcached is required for development on some projects
 brew install memcached
