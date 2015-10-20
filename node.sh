@@ -8,7 +8,6 @@ sudo nave usemain stable
 # install packages without sudo
 wget -O- https://raw.githubusercontent.com/glenpike/npm-g_nosudo/master/npm-g-nosudo.sh | sh
 
-
 npm install -g \
 	mocha \
 	pliers \
@@ -20,3 +19,4 @@ npm install -g \
 	npmrc \
 	html \
 	eslint \
+	nodemon

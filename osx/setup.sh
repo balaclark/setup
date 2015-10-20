@@ -37,8 +37,6 @@ else
 fi
 
 # Install ZeroMQ
-# Override system vim
-brew install vim --ov
 brew install pkg-config
 brew install zeromq
 
@@ -47,10 +45,23 @@ brew install zsh
 $DIR/../zsh.sh
 
 # Install a bunch of useful tools
-brew install wget mtr iftop pv tmux htop-osx hub git tig reattach-to-user-namespace
+brew install \
+  wget \
+  mtr \
+  iftop \
+  pv \
+  tmux \
+  htop-osx \
+  hub \
+  git \
+  tig \
+  reattach-to-user-namespace \
+  the_silver_searcher
+
+pip install httpie
 
 # Override system vim
-brew install vim --override-system-vi
+brew install vim --override-system-vi --with-lua
 hash -r
 
 # memcached is required for development on some projects
@@ -59,25 +70,26 @@ brew install memcached
 # Python is required to build some node libs
 brew install python python3
 
-# Install gui apps with `brew cask install <app>`
+# Install gui apps
 brew tap phinze/homebrew-cask
 brew install brew-cask
 
-brew cask install slack
-brew cask install tunnelblick
-brew cask install google-chrome
-brew cask install firefox
-brew cask install flux
-brew cask install caffeine
-brew cask install virtualbox
-brew cask install robomongo
-brew cask install spectacle
-brew cask install transmission
-brew cask install the-unarchiver
-brew cask install cyberduck
-brew cask install dropbox
-brew cask install alfred
-brew cask install libreoffice
+brew cask install slack \
+  tunnelblick \
+  google-chrome \
+  firefox \
+  opera \
+  flux \
+  caffeine \
+  virtualbox \
+  robomongo \
+  spectacle \
+  transmission \
+  the-unarchiver \
+  cyberduck \
+  dropbox \
+  alfred \
+  libreoffice
 
 # Nodejs
 if [ -x "$(which node)" ]; then
