@@ -9,15 +9,16 @@ sudo nave usemain stable
 wget -O- https://raw.githubusercontent.com/glenpike/npm-g_nosudo/master/npm-g-nosudo.sh | sh
 
 npm install -g \
-	mocha \
-	pliers \
-	st \
-	json \
-	bunyan \
-	jscs \
-	jshint \
-	npmrc \
-	html \
-	eslint \
-	nodemon \
-  replace
+  mocha \
+  pliers \
+  st \
+  json \
+  bunyan \
+  jscs \
+  jshint \
+  npmrc \
+  html \
+  eslint \
+  nodemon \
+  replace \
+  jade-lint
