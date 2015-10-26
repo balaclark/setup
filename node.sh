@@ -19,4 +19,5 @@ npm install -g \
 	npmrc \
 	html \
 	eslint \
-	nodemon
+	nodemon \
+  replace

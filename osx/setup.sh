@@ -56,7 +56,9 @@ brew install \
   git \
   tig \
   reattach-to-user-namespace \
-  the_silver_searcher
+  the_silver_searcher \
+  memcached \
+  python python3
 
 pip install httpie
 
@@ -64,17 +66,12 @@ pip install httpie
 brew install vim --override-system-vi --with-lua
 hash -r
 
-# memcached is required for development on some projects
-brew install memcached
-
-# Python is required to build some node libs
-brew install python python3
-
 # Install gui apps
 brew tap phinze/homebrew-cask
 brew install brew-cask
 
-brew cask install slack \
+brew cask install \
+  slack \
   tunnelblick \
   google-chrome \
   firefox \
@@ -89,7 +86,9 @@ brew cask install slack \
   cyberduck \
   dropbox \
   alfred \
-  libreoffice
+  libreoffice \
+  mplayerx \
+  vlc
 
 # Nodejs
 if [ -x "$(which node)" ]; then
