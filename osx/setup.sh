@@ -80,7 +80,7 @@ brew cask install slack \
   firefox \
   opera \
   flux \
-  caffeine \
+  keepingyouawake \
   virtualbox \
   robomongo \
   spectacle \
