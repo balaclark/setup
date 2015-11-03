@@ -88,7 +88,8 @@ brew cask install \
   alfred \
   libreoffice \
   mplayerx \
-  vlc
+  vlc \
+  appcleaner \
 
 # Nodejs
 if [ -x "$(which node)" ]; then
@@ -105,5 +106,15 @@ else
   echo Installing MongoDB
   $DIR/../mongo.sh
 fi
+
+# X11
+# TODO check installed first before installing again
+echo Installing X11
+cd /tmp
+wget http://xquartz.macosforge.org/downloads/SL/XQuartz-2.7.8.dmg
+hdiutil attach XQuartz-2.7.8.dmg
+open /Volumes/XQuartz-2.7.8/XQuartz.pkg
+read -p "Follow the GUI installation and press any key when the installation has completed." -n 1
+hdiutil detach /Volumes/XQuartz-2.7.8
 
 $DIR/../dotfiles.sh
