@@ -82,6 +82,7 @@ brew cask install \
   robomongo \
   spectacle \
   transmission \
+  catch \
   the-unarchiver \
   cyberduck \
   dropbox \
