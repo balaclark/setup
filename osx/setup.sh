@@ -91,6 +91,7 @@ brew cask install \
   mplayerx \
   vlc \
   appcleaner \
+  seil \
 
 # Nodejs
 if [ -x "$(which node)" ]; then
