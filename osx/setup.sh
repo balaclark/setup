@@ -92,6 +92,7 @@ brew cask install \
   vlc \
   appcleaner \
   seil \
+  sequel-pro \
 
 # Nodejs
 if [ -x "$(which node)" ]; then
