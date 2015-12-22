@@ -93,6 +93,7 @@ brew cask install \
   appcleaner \
   seil \
   sequel-pro \
+  chitchat \
 
 # Nodejs
 if [ -x "$(which node)" ]; then
