@@ -94,6 +94,7 @@ brew cask install \
   seil \
   sequel-pro \
   chitchat \
+  go2shell \
 
 # Nodejs
 if [ -x "$(which node)" ]; then
